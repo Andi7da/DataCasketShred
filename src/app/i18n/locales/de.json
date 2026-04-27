@@ -1,0 +1,93 @@
+{
+  "app.welcome": "Willkommen bei DataCasketShred.",
+  "app.description": "Dateien in ein passwortgeschuetztes 7z-Archiv packen und danach sicher loeschen.",
+  "cli.archive_path": "Pfad zum Ziel-7z-Archiv",
+  "cli.files": "Zu verarbeitende Datei(en)",
+  "cli.create": "Neues 7z-Archiv initial erzeugen (mit Header-Verschluesselung).",
+  "error.no_valid_files": "Keine gueltigen Dateien uebergeben.",
+  "warn.skipping_path": "Ueberspringe ungueltigen Pfad: {path}",
+  "info.deleted_file": "Sicher geloescht: {path}",
+  "info.done": "Archivieren und sicheres Loeschen abgeschlossen.",
+
+  "gui.ok": "OK",
+  "gui.yes": "Ja",
+  "gui.no": "Nein",
+  "gui.cancel": "Abbrechen",
+
+  "gui.section.target_archive": "Ziel-Archiv",
+  "gui.section.files_to_pack": "Zu packende Dateien",
+  "gui.section.output": "Ausgabe",
+
+  "gui.button.choose_7z": "7z waehlen",
+  "gui.button.new_7z": "Neue 7z",
+  "gui.button.choose_files": "Dateien waehlen",
+  "gui.button.remove_selection": "Auswahl entfernen",
+  "gui.button.clear_list": "Liste leeren",
+  "gui.button.pack": "Einpacken",
+  "gui.button.view_7z": "7z ansehen",
+  "gui.button.change_password": "Archiv-Passwort aendern",
+  "gui.button.shred_temp": "Temporaere Daten shreddern",
+
+  "gui.ready_hint": "Bereit. Dateien auswaehlen und dann 'Einpacken' druecken.",
+
+  "gui.dialog.title_error": "Fehler",
+  "gui.dialog.title_info": "Hinweis",
+  "gui.dialog.title_confirm": "Bestaetigung",
+  "gui.dialog.title_checkshred": "CheckShred",
+  "gui.dialog.title_done": "Fertig",
+  "gui.dialog.title_not_shredded": "Nicht geschredderte Dateien",
+  "gui.dialog.title_password": "Archiv-Passwort",
+  "gui.dialog.title_pack_done": "Einpacken abgeschlossen",
+  "gui.dialog.title_7zip_config": "7-Zip Konfiguration",
+  "gui.dialog.title_password_change": "Archiv-Passwort aendern",
+  "gui.dialog.title_existing_old": "Alte Archivdatei existiert bereits",
+
+  "gui.error.select_target_first": "Bitte zuerst eine Ziel-7z-Datei auswaehlen.",
+  "gui.error.select_files_first": "Bitte zuerst mindestens eine Datei auswaehlen.",
+  "gui.error.no_valid_selected_files": "Es sind keine gueltigen Dateien in der Auswahl.",
+  "gui.error.archive_missing": "Archivdatei wurde nicht gefunden.",
+  "gui.error.password_empty": "Passwort darf nicht leer sein.",
+  "gui.error.new_password_mismatch": "Neues Passwort und Wiederholung stimmen nicht ueberein.",
+  "gui.error.temp_dir_exists": "Temp-Ordner existiert bereits und ist nicht leer: {path}",
+  "gui.error.temp_dir_not_found": "Erwarteter Temp-Ordner existiert nicht: {path}",
+
+  "gui.password.prompt_pack": "Passwort fuer 7z-Einpacken eingeben:",
+  "gui.password.prompt_old": "Aktuelles Archiv-Passwort eingeben:",
+  "gui.password.prompt_new": "Neues Archiv-Passwort eingeben:",
+  "gui.password.prompt_new_repeat": "Neues Archiv-Passwort wiederholen:",
+  "gui.hint.no_pending_shred": "Keine temporaeren Dateien zum Shreddern vorhanden.",
+  "gui.confirm.shred": "{count} Datei(en) ueberschreiben und loeschen?",
+  "gui.confirm.delete_existing_old": "Es existiert bereits eine Datei unter:\n{path}\n\nLoeschen und fortfahren?",
+  "gui.confirm.delete_existing_new": "Es existiert bereits eine Datei unter:\n{path}\n\nLoeschen und fortfahren?",
+  "gui.checkshred.message": "Alle ausgewaehlten Dateien wurden mit Zufallsdaten ueberschrieben.\n\nBitte pruefe bei Bedarf den Inhalt.\n\nVor dem Fortfahren: Diese Dateien ENDGUELTIG LOESCHEN?\n\n{preview}",
+  "gui.done.shred_deleted": "{count} Datei(en) sicher geloescht.",
+  "gui.pack_done.message": "Dateien wurden ins Archiv gepackt.\nNaechster Schritt: 'Temporaere Daten shreddern'.",
+  "gui.not_shredded.prompt": "Es sind noch nicht geschredderte Dateien vorhanden.\nJetzt shreddern?",
+
+  "gui.output.started_7zfm": "7-Zip File Manager gestartet. Passwortabfrage erfolgt dort.\nArchiv: {path}",
+
+  "gui.error.seven_zip_env_hint": "Bitte SEVEN_ZIP_EXE_PATH und SEVEN_ZIP_FM_PATH in der .env pruefen.",
+
+  "gui.filedialog.title.choose_7z": "7z-Archiv auswaehlen",
+  "gui.filedialog.title.new_7z": "Neue 7z-Datei erstellen",
+  "gui.filedialog.title.choose_files": "Dateien auswaehlen",
+
+  "gui.output.files_added": "{count} Datei(en) zur Liste hinzugefuegt.",
+
+  "gui.output.packed_ready_shred": "{count} Datei(en) in Archiv aufgenommen. Bereit zum Shreddern.",
+  "gui.output.password_change_start": "Starte Passwortwechsel fuer Archiv...",
+  "gui.output.temp_dir": "Verwende Temp-Ordner: {path}",
+  "gui.output.extract_ok": "Archiv in Temp-Ordner entpackt.",
+  "gui.output.repack_ok": "Neues Archiv mit neuem Passwort erstellt.",
+  "gui.output.temp_cleanup_ok": "Temporaere Daten geschreddert und geloescht.",
+  "gui.output.rename_old": "Altes Archiv umbenannt nach: {path}",
+  "gui.output.rename_new": "Neues Archiv auf Originalnamen gesetzt: {path}",
+  "gui.output.password_change_done": "Passwortwechsel abgeschlossen.",
+  "gui.output.password_change_aborted_existing_old": "Passwortwechsel abgebrochen: bestehendes -old Archiv wurde beibehalten.",
+  "gui.output.password_change_aborted_existing_new": "Passwortwechsel abgebrochen: bestehendes -new Archiv wurde beibehalten.",
+  "gui.output.password_change_failed": "Passwortwechsel fehlgeschlagen: {error}",
+
+  "gui.dialog.title_7zip_error": "7-Zip Fehler",
+
+  "gui.checkshred.more_files": "... und {count} weitere"
+}
