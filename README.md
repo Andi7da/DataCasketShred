@@ -101,3 +101,11 @@ Example target:
 ## Learning docs
 
 - `D:\Users\andim\Prg_Cursor\AM_Doku\docupython.md` -> practical best practices and recurring workflows
+
+## License
+
+This project uses the MIT License. See `LICENSE`.
+
+## Template note
+
+For future project templates, default to MIT unless there is a specific reason to use a stricter license.
